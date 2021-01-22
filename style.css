@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: static;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar{
+    background-image: linear-gradient(to right, #3d74bb, #2b1782);
+    padding: 0;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+    
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{   color: #fff !important;
+    font-weight: 600;
+    padding-left: 40px;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+    border: none;
+}
+
+
+#banner{
+    background-image: linear-gradient(to right, #3d74bb, #2b1782);
+    color: #fff;
+    padding-top: 5%;
+
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn{
+    width: 100px;
+    margin: 20px;
+
+}
+#banner a{
+    color: white;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100% !important;
+    height: 100px;
+
+  
+    
+}
+
+
+/* services section */
+#services{
+    padding: 80px 0;
+
+}
+.service-img{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background-color: #174f98;
+    height: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background-color: #174f98;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(7px);
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border:none;
+    border-radius: 20px;
+    background-image:linear-gradient(to right, #3d74bb, #2b1782) ;
+}
+
+/* about us */
+
+#about-us{
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title{
+font-size: 40px;
+font-weight: 600px;
+margin-top: 8%;
+
+}
+#about-us ul li{
+    margin: 10px 0 ;
+}
+
+#about-us ul{
+    margin-left: 20px;
+}
+
+
+
+/* ---------testemonials section */
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+
+/* -----------social media section------------------ */
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+
+}
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.social-icons i {
+    font-size: 60px;
+    transition: 0.5s;
+    padding: auto;
+    background-image:linear-gradient(to right, #3d74bb, #2b1782) ;
+    height: 90px;
+    padding-top: 15px;
+    border-radius: 5%;
+    width: 90px;
+    margin: 30px 15px;
+}
+.social-icons .fa-facebook{
+    color: white;
+}
+.social-icons .fa-instagram{
+    color: #aa4ac5;
+}
+.social-icons .fa-snapchat{
+    color: #e7e437;
+}
+.social-icons .fa-envelope{
+    color: #cc2929;
+}
+.social-icons .fa-whatsapp{
+    color: #3dce8a;
+}
+.social-icons a:hover i{
+    transform: translateY(-10px);
+}
+
+
+/* footer section */
+#footer{
+    background-image:linear-gradient(to right, #3d74bb, #2b1782) ;
+    color: #fff;
+}
+#footer .wave-img{
+    transform: rotate(180deg);
+    width: 100%;
+    height: 80px;
+   
+}
+.footer-box{
+    padding: 20px;
+
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    background-image:linear-gradient(to right, #3d74bb, #2b1782) ;
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}
+
+
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image:linear-gradient(to right, #3d74bb, #2b1782) ;
+}
+hr{
+    background-color: #fff;
+
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
